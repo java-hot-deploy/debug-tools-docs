@@ -12,15 +12,21 @@ When writing code traditionally, you need to restart the application to take eff
 
 ## 1. Enable hot reload
 
-Click <img src="/icon/hotswap.svg" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> and the icon will change to <img src="/icon/hotswap_on.svg" style="display: inline-block; width: 25px; height: 25px; vertical-align: middle;" />, indicating that hot reload is enabled. Start the project hot reload in the big airplane mode to take effect.
+Click `Hotswap 'xxx' with DebugTools` in `More Actions` to start the application with a hot reload.
 
-- Off state
+![start_hotswap.png](/images/start_hotswap.png){v-zoom}
 
-![hotswap_off](/images/hotswap_off.png){v-zoom}
+If you find it cumbersome to open `More Actions` every time, you can place the button in the `Main Toolbar`. For example, add a button on the right side as shown below:
 
-- On state
+![main_toolbar.png](/images/main_toolbar.png){v-zoom}
 
-![hotswap_on](/images/hotswap_on.png){v-zoom}
+Search for `Hotswap with DebugTools`. If you want to change the icon, you can also modify it below.
+
+![add_hotswap_action.png](/images/add_hotswap_action.png){v-zoom}
+
+This will allow you to click from outside the application.
+
+![start_hotswap_toolbar.png](/images/start_hotswap_toolbar.png){v-zoom}
 
 ::: tip
 Hot reload requires a specific JDK to take effect. Please refer to [JDK installation](install#jdk) to complete JDK initialization
@@ -31,7 +37,7 @@ Hot reload requires a specific JDK to take effect. Please refer to [JDK installa
 
 ## 2. Trigger hot reload
 
-Start the application in debug mode in the state of the big plane. The project outputs the following log and prints the loaded hot reload plug-in.
+Start the application in debug mode. The project outputs the following log and prints the loaded hot reload plug-in.
 
 ```text
 DebugTools: 2025-01-07 16:41:07.909 INFO [main] i.g.f.d.t.h.c.HotswapAgent 44 : open hot reload unlimited runtime class redefinition.{3.3.0}

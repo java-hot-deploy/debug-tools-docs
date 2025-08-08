@@ -4,6 +4,23 @@ aside: false
 ---
 # ChangeLog
 
+## [4.2.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.1.2...v4.2.0) (2025-08-08)
+
+- Added a trace function to display the link duration when calling methods.
+- Added a function to display the method call button when hovering the mouse over the line header.
+- Added the ability to copy objects to JSON in the right-click menu of breakpoints. By [@ayuayue](https://github.com/ayuayue)
+- Added the ability to print SQL history and save it to a file. By [@ayuayue](https://github.com/ayuayue)
+- Adapted hot reload startup to the IDEA run/debug configurations. By [@loong95](https://github.com/loong95)
+- Optimized the MyBatis mapper XML file recognition method. By [@loong95](https://github.com/loong95)
+- Optimized the agent startup loading speed.
+- Removed the Groovy Console button from the right-click menu.
+- Removed the hot deploy button from the launcher and placed it in the ToolWindow.
+- Fixed the bug in SQL print time type display by [@ayuayue](https://github.com/ayuayue)
+- Fixed the bug in WSL2 causing XML hot reload failure by [@seahoe](https://github.com/seahoe)
+- Fixed the bug in mybatis-spring 1.3.2 startup failures.
+- Fixed the bug in dynamic-datasource 3+ startup failures.
+- Fixed the bug in inner class constructors where the parent class's IoC property was null.
+
 ## [4.1.2](https://github.com/java-hot-deploy/debug-tools/compare/v4.1.1...v4.1.2) (2025-07-15)
 
 - Fixed the bug of dynamic-datasource4.2+ startup failure

@@ -23,6 +23,16 @@ DebugTools 通过在 [jdbc](https://www.oracle.com/database/technologies/appdev/
 
 ![print_sql_setting](/images/print_sql_setting.png){v-zoom}
 
+- `Pretty`: 格式化打印SQL语句
+- `Compress`: 压缩形式打印SQL语句
+- `No`: 不打印SQL
+- `Auto save sql to file`: 将SQL保存到文件中
+- `SQL Retention Days`: 保留多少天
+
+SQL文件在`.idea/DebugTools/sql` 文件夹下，也可以点击 `ToolsWindow` 打开最新SQL文件。
+
+![sql_file.png](/images/sql_file.png){v-zoom}
+
 成功会在日志中输出 `Print xxx(mysql/oracle/...) log bytecode enhancement successful`
 
 ![print_sql_success](/images/print_sql_success.png){v-zoom}

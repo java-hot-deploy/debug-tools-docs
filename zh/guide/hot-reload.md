@@ -12,15 +12,21 @@
 
 ## 1. 开启热重载
 
-点击 <img src="/icon/hotswap.svg" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> 图标变为 <img src="/icon/hotswap_on.svg" style="display: inline-block; width: 25px; height: 25px; vertical-align: middle;" /> 表示开启热重载，大飞机模式下启动项目热重载即可生效。
+点击 `More Actions` 中的 `Hotswap 'xxx' with DebugTools` 以热重载的方式启动应用。
 
-- 关闭状态
+![start_hotswap.png](/images/start_hotswap.png){v-zoom}
 
-![hotswap_off](/images/hotswap_off.png){v-zoom}
+如果觉得每次都要展开 `More Actions` 比较繁琐，可以将按钮配置在 `Main Toolbar` 中，比如在右侧添加按钮如下图所示：
 
-- 开启状态
+![main_toolbar.png](/images/main_toolbar.png){v-zoom}
 
-![hotswap_on](/images/hotswap_on.png){v-zoom}
+搜索 `Hotswap with DebugTools`，如果想调 Icon 也可以在下面修改。
+
+![add_hotswap_action.png](/images/add_hotswap_action.png){v-zoom}
+
+这样就可以在外面点击了
+
+![start_hotswap_toolbar.png](/images/start_hotswap_toolbar.png){v-zoom}
 
 ::: tip
 热重载需要特定的jdk才能生效，请先参考[JDK安装](install#jdk)完成JDK的初始化
@@ -29,9 +35,12 @@
 > 启动项目如果提示 `DCEVM is not installed` ，检查[JDK安装](install#jdk)是否正确。JDK8 检查命令 `java -XXaltjvm=dcevm -version` 是否能正常输出。
 > ![dcevm_not_install.png](/images/dcevm_not_install.png){v-zoom}
 
+
+
+
 ## 2. 触发热重载
 
-在大飞机的状态下通过 `debug` 方式启动应用，项目输出如下日志，并打印载入的热重载插件。
+热重载是通过 `debug` 方式启动应用，项目输出如下日志，并打印载入的热重载插件。
 
 ```text
 DebugTools: 2025-01-07 16:41:07.909    INFO [main] i.g.f.d.t.h.c.HotswapAgent 44 : open hot reload unlimited runtime class redefinition.{3.3.0}

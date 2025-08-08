@@ -1,8 +1,12 @@
 # Debug Panel {#quick-debug}
 
-Wake up the right-click menu on the method to be called, and click `Quick Debug` to wake up the **debug panel**.
+- Right-click on the method you want to call and click `Quick Debug` to open the **Debug Panel**.
 
 ![idea_menu.png](/images/idea_menu.png){v-zoom}
+
+- You can also open the **Debug Panel** by hovering your mouse over the beginning of the method you want to call.
+
+![quick_debug_line.png](/images/quick_debug_line.png){v-zoom}
 
 ![quick_debug](/images/quick_debug.png){v-zoom}
 

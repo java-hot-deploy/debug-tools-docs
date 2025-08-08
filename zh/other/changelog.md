@@ -4,6 +4,23 @@ aside: false
 ---
 # 版本迭代记录
 
+## [4.2.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.1.2...v4.2.0) (2025-08-08)
+
+- 增加调用方法时trace功能展示链路耗时功能
+- 增加鼠标放在行头展示调用方法按钮功能
+- 增加断点右键菜单增加复制对象为json功能 by [@ayuayue](https://github.com/ayuayue)
+- 增加sql打印历史并存储为文件功能 by [@ayuayue](https://github.com/ayuayue)
+- 热重载启动适配idea run/debug configurations启动 by [@loong95](https://github.com/loong95)
+- 优化mybatis mapper xml文件识别方式 by [@loong95](https://github.com/loong95)
+- 优化agent启动加载速度
+- 右键菜单移除Groovy控制台按钮
+- 将热部署的按钮从启动栏移除放到ToolWindow中
+- 修复sql打印时间类型显示bug by [@ayuayue](https://github.com/ayuayue)
+- 修复wsl2导致xml热重载失败的bug by [@seahoe](https://github.com/seahoe)
+- 修复mybatis-spring1.3.2启动失败的bug
+- 修复dynamic-datasource3+启动失败的bug
+- 修复内部类构造函数使用父类ioc属性时为null的bug
+
 ## [4.1.2](https://github.com/java-hot-deploy/debug-tools/compare/v4.1.1...v4.1.2) (2025-07-15)
 
 - 修复dynamic-datasource4.2+启动失败的bug

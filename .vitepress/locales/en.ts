@@ -108,6 +108,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {text: 'Attach remote', link: 'attach-remote'},
         {text: 'Debug panel', link: 'quick-debug'},
         {text: 'Run result', link: 'run-result'},
+        {text: 'Trace method', link: 'trace-method'},
         {text: 'ClassLoader', link: 'classloader'},
         {text: 'Header parameter', link: 'header'},
         {text: 'Xxl-job parameter', link: 'xxl-job'},

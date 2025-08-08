@@ -127,6 +127,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {text: '附着远程', link: 'attach-remote'},
         {text: '调试面板', link: 'quick-debug'},
         {text: '运行结果', link: 'run-result'},
+        {text: '方法耗时', link: 'trace-method'},
         {text: '类加载器', link: 'classloader'},
         {text: 'header参数', link: 'header'},
         {text: 'xxl-job参数', link: 'xxl-job'},

@@ -103,3 +103,7 @@ DebugTools provides log output similar to Idea console, you can view abnormal in
 DebugTools provides log output similar to Idea Debug, which can view exception information and has the same function as normal `debug`.
 
 ![debug_exception.png](/images/debug_exception.png){v-zoom}
+
+### Trace
+
+To view method timing, visit [Method Timing](./trace-method) for details.

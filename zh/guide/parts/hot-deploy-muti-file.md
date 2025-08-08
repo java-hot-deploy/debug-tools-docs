@@ -1,4 +1,4 @@
-点击 <img src="/icon/hot_deployment.svg" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> 按钮唤醒主页面。
+点击 Idea 右侧的 <img src="/pluginIcon.svg" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> 工具栏唤醒 DebugTools 的窗口，点击 <img src="/icon/hot_deployment.svg" alt="火箭" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> 按钮唤醒主页面。
 
 ![hot_deploy_button.png](/images/hot_deploy_button.png){v-zoom}
 

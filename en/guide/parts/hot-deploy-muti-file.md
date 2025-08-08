@@ -1,4 +1,4 @@
-Click the <img src="/icon/hot_deployment.svg" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> button to wake up the main page.
+Click the <img src="/pluginIcon.svg" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> toolbar on the right side of Idea to wake up the DebugTools window, and click the <img src="/icon/hot_deployment.svg" alt="Rocket" style="display: inline-block; width: 20px; height: 20px; vertical-align: middle;" /> button to wake up the main page.
 
 ![hot_deploy_button.png](/images/hot_deploy_button.png){v-zoom}
 

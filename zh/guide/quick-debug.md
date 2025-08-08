@@ -1,8 +1,12 @@
 # 调试面板 {#quick-debug}
 
-在要调用的方法上唤醒右键菜单，点击 `Quick Debug` 唤醒 **调试面板**。
+- 在要调用的方法上唤醒右键菜单，点击 `Quick Debug` 唤醒 **调试面板**。
 
 ![idea_menu.png](/images/idea_menu.png){v-zoom}
+
+- 鼠标放在要调用的方法行头，也可以唤醒 **调试面板**。
+
+![quick_debug_line.png](/images/quick_debug_line.png){v-zoom}
 
 ![quick_debug](/images/quick_debug.png){v-zoom}
 

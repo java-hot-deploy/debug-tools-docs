@@ -103,3 +103,7 @@ DebugTools 提供类似 Idea 控制台一样的日志输出，可以查看异常
 DebugTools 提供类似 Idea Debug 的日志输出，可以查看异常信息，功能同正常的 `debug` 一样。
 
 ![debug_exception.png](/images/debug_exception.png){v-zoom}
+
+### Trace
+
+方法耗时查看，具体可以访问 [方法耗时](./trace-method)

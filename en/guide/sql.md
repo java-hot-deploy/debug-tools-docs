@@ -23,6 +23,16 @@ Configure to open or close in `setting -> Other Settings -> DebugTools`
 
 ![print_sql_setting](/images/print_sql_setting.png){v-zoom}
 
+- `Pretty`: Print SQL statements in formatted form
+- `Compress`: Print SQL statements in compressed form
+- `No`: Do not print SQL statements
+- `Auto save sql to file`: Save SQL statements to a file
+- `SQL Retention Days`: Retain SQL statements for a certain number of days
+
+The SQL file is in the `.idea/DebugTools/sql` folder. You can also open the latest SQL file by clicking the `ToolsWindow`.
+
+![sql_file.png](/images/sql_file.png){v-zoom}
+
 Success will output `Print xxx(mysql/oracle/...) log bytecode enhancement in the log successful`
 
 ![print_sql_success](/images/print_sql_success.png){v-zoom}
