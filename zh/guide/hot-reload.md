@@ -12,7 +12,11 @@
 
 ## 1. 开启热重载
 
-点击 `More Actions` 中的 `Hotswap 'xxx' with DebugTools` 以热重载的方式启动应用。
+- 请关掉idea的 `Build, Execution, Deployment -> Debugger -> Async Stack Traces` 配置 
+
+![instrumenting_agent.png](/images/instrumenting_agent.png){v-zoom}
+
+- 点击 `More Actions` 中的 `Hotswap 'xxx' with DebugTools` 以热重载的方式启动应用。
 
 ![start_hotswap.png](/images/start_hotswap.png){v-zoom}
 
@@ -29,7 +33,8 @@
 ![start_hotswap_toolbar.png](/images/start_hotswap_toolbar.png){v-zoom}
 
 ::: tip
-热重载需要特定的jdk才能生效，请先参考[JDK安装](install#jdk)完成JDK的初始化
+- 热重载需要特定的jdk才能生效，请先参考[JDK安装](install#jdk)完成JDK的初始化。
+- 不更换jdk也可以使用热重载，只是无法更改类的签名(推荐更换jdk)。
 :::
 
 > 启动项目如果提示 `DCEVM is not installed` ，检查[JDK安装](install#jdk)是否正确。JDK8 检查命令 `java -XXaltjvm=dcevm -version` 是否能正常输出。

@@ -12,7 +12,11 @@ When writing code traditionally, you need to restart the application to take eff
 
 ## 1. Enable hot reload
 
-Click `Hotswap 'xxx' with DebugTools` in `More Actions` to start the application with a hot reload.
+- Please disable the `Build, Execution, Deployment -> Debugger -> Async Stack Traces` configuration in IDEA.
+
+![instrumenting_agent.png](/images/instrumenting_agent.png){v-zoom}
+
+- Click `Hotswap 'xxx' with DebugTools` in `More Actions` to start the application with a hot reload.
 
 ![start_hotswap.png](/images/start_hotswap.png){v-zoom}
 
