@@ -52,7 +52,7 @@ export const zh = defineConfig({
       {icon: 'gitee', link: 'https://gitee.com/future94/debug-tools'},
     ],
     footer: {
-      message: `基于 Apache 许可发布 | 版权所有 © 2024-${new Date().getFullYear()} <a href="https://github.com/java-hot-deploy/" target="_blank">Future0923</a>`,
+      message: `基于 GPL-3.0 许可发布 | 版权所有 © 2024-${new Date().getFullYear()} <a href="https://github.com/java-hot-deploy/" target="_blank">Future0923</a>`,
       copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">吉ICP备2024021764号-1</a> | <img src="/icon/beian.png" alt="" style="display: inline-block; width: 18px; height: 18px; vertical-align: middle;" /> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=22010302000528" rel="noreferrer" target="_blank">吉公网安备22010302000528</a>'
     },
   }
