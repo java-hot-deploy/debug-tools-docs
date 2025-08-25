@@ -57,3 +57,11 @@ Use the `trace` type to view the execution time of a method.
 ![run_result_trace.png](/images/run_result_trace.png){v-zoom}
 
 - `Goto method source`: Use the right-click menu on a method to jump to the corresponding method.
+
+![run_result_trace.png](/images/run_result_trace.png){v-zoom}
+
+- `Show SQL detail`: Use the right-click menu on a method to view the SQL statement in full-screen format (double-clicking is also possible).
+
+![run_result_sql.png](/images/run_result_sql.png){v-zoom}
+
+![run_result_trace_sql.png](/images/run_result_trace_sql.png){v-zoom}

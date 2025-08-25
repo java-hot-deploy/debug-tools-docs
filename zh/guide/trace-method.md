@@ -57,6 +57,12 @@
 
 通过 `trace` 类型查看执行方法耗时
 
+- `Goto method source`: 方法上右键菜单可以跳转到对应的方法。
+
 ![run_result_trace.png](/images/run_result_trace.png){v-zoom}
 
-- `Goto method source`: 方法上右键菜单可以跳转到对应的方法。
+- `Show sql detail`: 方法上右键菜单可以全屏格式化查看sql（双击也可以）。
+
+![run_result_sql.png](/images/run_result_sql.png){v-zoom}
+
+![run_result_trace_sql.png](/images/run_result_trace_sql.png){v-zoom}

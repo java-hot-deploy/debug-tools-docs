@@ -87,9 +87,14 @@ Installation location.
 
 :::
 
+::: tip
+- Currently, there is no native JDK for the DCEVM chip on Mac OS. The JDK provided above is modified using `adopt jdk` and is still essentially an x86 architecture JDK.
+- If your project allows, we strongly recommend using JetBrains Runtime 11+.
+:::
+
 #### 2.1.2 Self-installation
 
-::: details Windows/Mac OS
+::: details Windows/Mac OS (intel)
 
 Download the corresponding version of the .jar file. <span style="color: red;">Currently only the following versions of JDK are supported, please select the corresponding version. </span>
 
@@ -138,18 +143,7 @@ Download the corresponding version file and rename it to `libjvm.so` and put it 
 
 ### 2.2 JDK 11 {#jdk11}
 
-::: details trava-jdk-11-dcevm
-
-Use [trava-jdk-11-dcevm](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases) JDK to support hot deployment/hot reload.
-
-- MacOS latest version [Dcevm-11.0.15+1](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases/download/dcevm-11.0.15%2B1/Openjdk11u-dcevm-mac-x64.tar.gz) Download address
-- Windows latest version [Dcevm-11.0.15+1](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases/download/dcevm-11.0.15%2B1/Openjdk11u-dcevm-windows-x64.zip) Download address
-- Linux latest version [Dcevm-11.0.15+1](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases/download/dcevm-11.0.15%2B1/Openjdk11u-dcevm-linux-x64.tar.gz) Download address
-- Other versions can be downloaded from [https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases).
-
-:::
-
-::: details JetBrainsRuntime（Recommend）
+::: details JetBrainsRuntime
 
 Using [JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime/tree/jbr11) JDK can support hot deployment/hot reload.
 

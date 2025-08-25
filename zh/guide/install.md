@@ -85,9 +85,14 @@ wget https://download.debug-tools.cc/install/linux-install.tar.gz -O linux-insta
 
 :::
 
+::: tip 注意
+- 目前Mac OS并没有纯正的M芯片的DCEVM的jdk，上面提供的jdk是通过`adopt jdk`改造而来，本质还是x86架构的jdk。
+- 如果项目允许，非常推荐使用 JetBrainsRuntime 11+
+:::
+
 #### 2.1.2 自行安装
 
-::: details Windows/Mac OS
+::: details Windows/Mac OS (intel)
 
 下载对应版本的 .jar 文件。<span style="color: red;">目前只支持下面版本的JDK，请选择对应版本的。</span>
 
@@ -136,18 +141,7 @@ Please install or use the JRE or JDK that contains these missing components.
 
 ### 2.2 JDK 11 {#jdk11}
 
-::: details trava-jdk-11-dcevm
-
-使用 [trava-jdk-11-dcevm](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases) JDK 可以支持热部署/热重载。
-
-- MacOS最新版本 [Dcevm-11.0.15+1](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases/download/dcevm-11.0.15%2B1/Openjdk11u-dcevm-mac-x64.tar.gz) 下载地址
-- Windows最新版本 [Dcevm-11.0.15+1](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases/download/dcevm-11.0.15%2B1/Openjdk11u-dcevm-windows-x64.zip) 下载地址
-- Linux最新版本 [Dcevm-11.0.15+1](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases/download/dcevm-11.0.15%2B1/Openjdk11u-dcevm-linux-x64.tar.gz) 下载地址
-- 其他版本访问 [https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm/releases) 下载。
-
-:::
-
-::: details JetBrainsRuntime （推荐）
+::: details JetBrainsRuntime
 
 使用 [JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime/tree/jbr11) JDK 可以支持热部署/热重载。
 

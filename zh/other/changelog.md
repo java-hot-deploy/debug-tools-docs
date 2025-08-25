@@ -4,6 +4,23 @@ aside: false
 ---
 # 版本迭代记录
 
+## [4.3.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.2.0...4.3.0) (2025-08-25)
+
+- 增加调用方法前后置脚本
+- 增加trace方式sql语句双击/右键菜单放大查看
+- 国际化(英文/中文) by [@ayuayue](https://github.com/ayuayue)
+- 打印sql支持达梦数据库 by [@wangqiqi95](https://github.com/wangqiqi95)
+- 鼠标放在行头是否展示调用方法按钮配置开关 by [@wangqiqi95](https://github.com/wangqiqi95)
+- 插件jdk11改为只支持jbr11不再支持trava11
+- SpringbootDevTools的项目默认选RestartClassLoader类加载器
+- 修复调用方法trace功能传入转义字符串正则匹配失败的bug
+- 修复macOS在M芯片下dylib加载错误的bug by [@wangqiqi95](https://github.com/wangqiqi95)
+- 修复MyBatis Plus3.5.6启动失败的bug by [@wangqiqi95](https://github.com/wangqiqi95)
+- 修复MyBatis Plus3.5.11+下热重载失败的bug
+- 修复mybatis-spring3.0.4+下热重载失败
+- 修复SpringBoot3.4.5下cglib的bean启动失败的bug
+- 修复debug-tools-boot附着远程获取应用名错误导致附着失败的bug
+
 ## [4.2.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.1.2...v4.2.0) (2025-08-08)
 
 - 增加调用方法时trace功能展示链路耗时功能

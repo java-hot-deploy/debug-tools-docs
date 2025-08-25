@@ -4,6 +4,23 @@ aside: false
 ---
 # ChangeLog
 
+## [4.3.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.2.0...4.3.0) (2025-08-25)
+
+- Added pre- and post-scripts for calling methods
+- Added a double-click/right-click menu to zoom in on SQL statements in trace mode
+- Internationalization (English/Chinese) by [@ayuayue](https://github.com/ayuayue)
+- Printing SQL statements supports the DAMO database by [@wangqiqi95](https://github.com/wangqiqi95)
+- Toggle on and off whether to display the call method button when hovering the mouse over the line by [@wangqiqi95](https://github.com/wangqiqi95)
+- JDK 11 plugin now supports only JBR 11 and no longer supports TRAVA 11
+- Spring Boot DevTools projects now use the RestartClassLoader class loader by default
+- Fixed a bug where regex matching failed when passing escaped strings to the call method trace function
+- Fixed a bug where dylib loading errors occurred on macOS on M chipsets by [@wangqiqi95](https://github.com/wangqiqi95) [@wangqiqi95](https://github.com/wangqiqi95)
+- Fixed a bug causing MyBatis Plus 3.5.6 startup failure (by [@wangqiqi95](https://github.com/wangqiqi95))
+- Fixed a bug causing hot reload failure in MyBatis Plus 3.5.11+
+- Fixed a hot reload failure in mybatis-spring 3.0.4+
+- Fixed a bug causing cglib bean startup failure in Spring Boot 3.4.5
+- Fixed a bug causing debug-tools-boot to fail to attach due to an incorrect application name being retrieved during remote attachment.
+
 ## [4.2.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.1.2...v4.2.0) (2025-08-08)
 
 - Added a trace function to display the link duration when calling methods.
