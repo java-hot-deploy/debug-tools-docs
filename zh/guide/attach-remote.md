@@ -66,14 +66,16 @@ java -jar debug-tools-tools.jar
 usage: debug-tools
  -hp,--http-port <arg>   target application server http port
                          default get available port.
+ -pid,--pid <arg>        target application process id
  -tp,--tcp-port <arg>    target application server tcp port
                          default get available port.
 ```
 
-| 参数              |     说明     |                  默认值 |
-|-----------------|:----------:|---------------------:|
-| -hp,--http-port | 指定 http 端口 | 默认从 22222 开始递增寻找可用端口 |
-| -tp,--tcp-port  | 指定 tcp 端口  | 默认从 12345 开始递增寻找可用端口 |
+| 参数              |                    说明                    |                  默认值 |
+|-----------------|:----------------------------------------:|---------------------:|
+| -hp,--http-port |                指定 http 端口                | 默认从 22222 开始递增寻找可用端口 |
+| -tp,--tcp-port  |                指定 tcp 端口                 | 默认从 12345 开始递增寻找可用端口 |
+| -pid,--pid      | 指定 java 进程号 <br />没有jps命令的jdk可以指定java进程号 |                    - |
 
 ## 连接
 
@@ -81,7 +83,8 @@ usage: debug-tools
 
 ## 使用
 
-连接成功后，可以唤醒[调试面板](./quick-debug)进行远程方法快捷调用并[查看结果](./run-result)，也可以使用[groovy控制台](./groovy-execute)。
+连接成功后，可以唤醒[调试面板](./quick-debug)进行远程方法快捷调用并[查看结果](./run-result)
+，也可以使用[groovy控制台](./groovy-execute)。
 
 ## 高级
 

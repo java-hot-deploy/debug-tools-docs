@@ -138,3 +138,14 @@ autoHotswap.port=
 ### 4.2 单文件远程编译
 
 <!--@include: ./parts/hot-deploy-one-file.md-->
+
+### 4.3 单xml文件远程编译
+
+通过右键菜单的 `Deploy 'xxx' to remote` 按钮可以通过远程动态编译的方式热重载单个xml文件.
+
+![hot_deploy_xml_button.png](/images/hot_deploy_xml_button.png){v-zoom}
+
+::: tip
+- 只有附着应用后才支持通过热部署的方式热重载变动文件
+- 使用远程动态编译时，附着应用必须要通过 JDK 启动，不能使用 JRE 启动。
+  :::

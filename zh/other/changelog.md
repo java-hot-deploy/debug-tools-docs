@@ -4,6 +4,14 @@ aside: false
 ---
 # 版本迭代记录
 
+## [4.3.1](https://github.com/java-hot-deploy/debug-tools/compare/v4.3.0...4.3.1) (2025-09-03)
+
+- 热部署支持resource目录下的文件
+- 热部署支持mybatis的xml文件
+- debug-tools-boot支持pid参数传入进程号
+- 修复EasyExcel在热重载启动下导出样式丢失的bug by [@wangqiqi95](https://github.com/wangqiqi95)
+- 修复SpringBoot3.4.5下热部署启动失败的bug
+
 ## [4.3.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.2.0...4.3.0) (2025-08-25)
 
 - 增加调用方法前后置脚本

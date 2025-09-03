@@ -116,3 +116,14 @@ autoHotswap.port=
 ### 4.2 Single file remote compilation
 
 <!--@include: ./parts/hot-deploy-one-file.md-->
+
+### 4.3 Remote Compilation of a Single XML File
+
+You can use the `Deploy 'xxx' to remote` button in the right-click menu to hot-reload a single XML file via remote dynamic compilation.
+
+![hot_deploy_xml_button.png](/images/hot_deploy_xml_button.png){v-zoom}
+
+::: Tip
+- Hot reloading of modified files via hot deployment is only supported after the application is attached.
+- When using remote dynamic compilation, the attached application must be started using the JDK and cannot be started using the JRE.
+  :::

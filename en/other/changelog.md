@@ -4,6 +4,14 @@ aside: false
 ---
 # ChangeLog
 
+## [4.3.1](https://github.com/java-hot-deploy/debug-tools/compare/v4.3.0...4.3.1) (2025-09-03)
+
+- Hot deployment supports files in the resource directory
+- Hot deployment supports MyBatis XML files
+- debug-tools-boot supports passing the process ID as the PID parameter
+- Fixed a bug where EasyExcel export styles were lost during hot reload by [@wangqiqi95](https://github.com/wangqiqi95)
+- Fixed a bug where hot deployment failed in Spring Boot 3.4.5
+
 ## [4.3.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.2.0...4.3.0) (2025-08-25)
 
 - Added pre- and post-scripts for calling methods

@@ -66,14 +66,16 @@ The parameter description can be viewed through `java -jar debug-tools-boot.jar 
 usage: debug-tools
  -hp,--http-port <arg>   target application server http port
                          default get available port.
+ -pid,--pid <arg>        target application process id
  -tp,--tcp-port <arg>    target application server tcp port
                          default get available port.
 ```
 
-| Parameter       |      Description      |                                      Default |
-|-----------------|:---------------------:|---------------------------------------------:|
-| -hp,--http-port | Specify the HTTP port | increment from 22222 to find available ports |
-| -tp,--tcp-port  | Specify the TCP port  | increment from 12345 to find available ports |
+| Parameter       |                                        Description                                         |                                      Default |
+|-----------------|:------------------------------------------------------------------------------------------:|---------------------------------------------:|
+| -hp,--http-port |                                   Specify the HTTP port                                    | increment from 22222 to find available ports |
+| -tp,--tcp-port  |                                    Specify the TCP port                                    | increment from 12345 to find available ports |
+| -pid,--pid      | Specify the Java process ID <br /> JDK without jps command can specify the Java process ID |                                            - |
 
 ## Connect
 

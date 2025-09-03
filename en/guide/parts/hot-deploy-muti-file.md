@@ -11,7 +11,7 @@ After selecting the file to be deployed
   - `Remote Attach Application`: remote dynamic compilation of the changed files through the attached application
 - `Select Type`: file selection method
   - `Java`: changed java files
-  - `Resources`: changed resource files (pending)
+  - `Resources`: changed resource files
   - `Vcs`: select to obtain file changes through the vcs tool, and do not select to obtain file changes through the file modification time
 
 Click the `OK` button and wait for the compilation to complete. After the compilation is completed, a prompt for successful compilation will pop up.
