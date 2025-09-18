@@ -4,6 +4,15 @@ aside: false
 ---
 # 版本迭代记录
 
+## [4.4.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.3.1...main) (2025-09-18)
+
+- 支持查看调用记录信息
+- 调用参数窗口/响应信息窗口展示当前附着应用名称
+- 支持 shorten command line 的 classpath file 模式
+- 优化搜索 url 响应速度
+- 修复Spring接口类型的listener收不到event事件的bug
+- 修复HuTool低版本ReflectUtil找不到getMethodsDirectly方法的bug
+
 ## [4.3.1](https://github.com/java-hot-deploy/debug-tools/compare/v4.3.0...4.3.1) (2025-09-03)
 
 - 热部署支持resource目录下的文件

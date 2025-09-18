@@ -4,6 +4,15 @@ aside: false
 ---
 # ChangeLog
 
+## [4.4.0](https://github.com/java-hot-deploy/debug-tools/compare/v4.3.1...v4.4.0) (2025-09-18)
+
+- Support for viewing call log information
+- Display the name of the currently attached application in the call parameters window/response information window
+- Support for classpath file mode for shortened command lines
+- Optimized URL search response speed
+- Fixed a bug where Spring interface listeners could not receive events
+- Fixed a bug where ReflectUtil in earlier versions of HuTool could not find the getMethodsDirectly method
+
 ## [4.3.1](https://github.com/java-hot-deploy/debug-tools/compare/v4.3.0...4.3.1) (2025-09-03)
 
 - Hot deployment supports files in the resource directory

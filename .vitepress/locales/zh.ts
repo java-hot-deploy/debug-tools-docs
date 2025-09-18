@@ -133,6 +133,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {text: 'header参数', link: 'header'},
         {text: 'xxl-job参数', link: 'xxl-job'},
         {text: '快捷调用上一次', link: 'execute-last'},
+        {text: '方法调用历史', link: 'invoke-record'},
       ]
     },
     {

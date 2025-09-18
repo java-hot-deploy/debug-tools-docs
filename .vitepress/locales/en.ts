@@ -114,6 +114,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {text: 'Header parameter', link: 'header'},
         {text: 'Xxl-job parameter', link: 'xxl-job'},
         {text: 'Execute last', link: 'execute-last'},
+        {text: 'Invoke Method History', link: 'invoke-record'},
       ]
     },
     {
